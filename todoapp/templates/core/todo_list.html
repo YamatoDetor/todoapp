@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Lista de Todos</title>
+</head>
+<body>
+
+<h1>Lista de Todos</h1>
+
+<ul>
+    {% for todo in todo_list %}
+        <li>{{ todo.title }} - {{ todo.description }} - {{ todo.date }} - {% if todo.is_finished %}Finalizado{% else %}Pendiente{% endif %}</li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>
