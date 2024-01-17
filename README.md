@@ -12,8 +12,8 @@
 
 # paso 6: conectamos el repositorio local con el de git "git remote add origin https://github.com/YamatoDetor/todoapp.git"
 
-# paso 7: a signamos la contraseña al origin "git remote set-url origin https://YamatoDetor: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/YamatoDetor/todoapp.git"
+# paso 7: a signamos la contraseña al origin "git remote set-url origin https://YamatoDetor:ghp_Token_@github.com/YamatoDetor/todoapp.git"
 
-# paso 8: cambiamos asiganmos la rama "git branch -M main"
+# paso 8: cambiamos la rama "git branch -M main"
 
 # paso 9: subimos el repositorio local "git push o git push -u origin main"
